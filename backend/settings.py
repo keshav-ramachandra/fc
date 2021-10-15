@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'foodcourt',
+            'NAME': 'fc',
             'USER': 'root',
-            'PASSWORD': 'mysql_root',
+            'PASSWORD': 'Iforget14!@',
             'HOST': 'localhost',
             'PORT': '3306',
         }
@@ -141,7 +141,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-AUTH_USER_MODEL = 'authentication.User'
 
 env = environ.Env()
 environ.Env.read_env()
